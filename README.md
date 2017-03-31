@@ -1,6 +1,6 @@
 # Gulpを使ってFontAwesomeのサブセットフォントを作成する
 
-Gulpを使ってFontAwesomeのフォントのサブセットを作成し、フォントファイルのサイズを縮小します。
+Gulpを使ってFontAwesomeのフォントをサブセット化し、配信ファイルのサイズを縮小する例です。
 
 ## インストール
 
@@ -126,9 +126,11 @@ $ $(npm bin)/gulp subset
 
 ## ライセンスについて
 
-FontAwesomeのフォントは、OFL 1.1というライセンスで提供されているようです。
-カスタマイズしてプロジェクトに同梱する場合は、CSSなどにライセンスを表示する必要があるでしょう。
+FontAwesomeのフォントは、[OFL-1.1](https://opensource.org/licenses/OFL-1.1)というライセンスで提供されているようです。
+カスタマイズしてプロジェクトに同梱する場合は、おそらくCSSなどにライセンスを表示する必要があるでしょう。
 
 ## リポジトリ
 
-Gulpでフォントファイルを縮小する例としてGitHubにリポジトリを作成しています。
+GulpでFontAwesomeのフォントファイルを縮小する例として、GitHubにリポジトリを作成しています。
+
+https://github.com/KamataRyo/font-subsetting-with-gulp
