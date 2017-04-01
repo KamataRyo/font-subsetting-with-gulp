@@ -1,5 +1,4 @@
 # Gulpを使ってFontAwesomeのサブセットフォントをビルドする
-
 [Gulp](http://gulpjs.com/)を使って[FontAwesome](http://fontawesome.io/)のフォントをサブセット化し、配信ファイルのサイズを縮小する例です。
 
 ## 前提
@@ -18,7 +17,7 @@ $ npm install -S font-awesome
 $ npm install -D gulp gulp-css2txt gulp-fontmin
 ```
 
-[gulp-css2txt](https://www.npmjs.com/package/gulp-css2txt)はフォントのサブセットを行うために今回作成した小さなgulpプラグインです。CSSに含まれるcontentプロパティを抽出し、ブラウザに表示されることになる文字を特定します。
+[gulp-css2txt](https://www.npmjs.com/package/gulp-css2txt)はフォントのサブセット化に必要な処理を行うために今回作成した小さなGulpプラグインです。CSSに含まれるcontentプロパティを抽出し、ブラウザに表示されることになる文字を特定します。
 
 [gulp-fontmin](https://www.npmjs.com/package/gulp-fontmin)はフォントのサブセット化を行うためのGulpプラグインです。
 
@@ -157,7 +156,9 @@ https://github.com/KamataRyo/font-subsetting-with-gulp
 
 ## 課題
 
-- `fa fa-glass`などの形式で指定されているフォントを特定できない
+- `fa fa-glass`などのクラス名で形式で指定されているフォントを特定できない
+
+ > クラス名と文字コードのマップが得られれば可能ですが、FontAwesomeのリポジトリには同梱されたりしていないようです。CSSを解析してマップを得ることもできそうですね。
 
 ## オプション
 
