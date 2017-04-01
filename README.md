@@ -160,6 +160,8 @@ https://github.com/KamataRyo/font-subsetting-with-gulp
 
  > クラス名と文字コードのマップが得られれば可能ですが、FontAwesomeのリポジトリには同梱されたりしていないようです。CSSを解析してマップを得ることもできそうですね。
 
+- contentプロパティがopen-quoteやclose-quoteの時のquoteプロパティの値、リストマークなどのフォントに対応していない
+
 ## オプション
 
 HTMLに出現する文字列をピックアップすることで、FontAwesome以外の任意のフォントに対してもサブセット化を行うことができます。以下はその例です。
