@@ -158,7 +158,7 @@ https://github.com/KamataRyo/font-subsetting-with-gulp
 
 - `fa fa-glass`などのクラス名で形式で指定されているフォントを特定できない
 
- > クラス名と文字コードのマップが得られれば可能ですが、FontAwesomeのリポジトリには同梱されたりしていないようです。CSSを解析してマップを得ることもできそうですね。
+> クラス名と文字コードのマップが得られれば可能ですが、FontAwesomeのリポジトリには同梱されたりしていないようです。CSSを解析してマップを得ることもできそうですね。
 
 - contentプロパティがopen-quoteやclose-quoteの時のquoteプロパティの値、リストマークなどのフォントに対応していない
 
